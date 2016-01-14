@@ -1,0 +1,8 @@
+﻿HighWord
+	Yazılacak Model lar
+		1- Uye Model
+			name : UyeModel
+			Alt Fonksiyonlar
+				NewUser(String UserName, String Password, Name, Surname);
+					Yeni üye oluşturmak için kullanılır
+				UpdateUser();	

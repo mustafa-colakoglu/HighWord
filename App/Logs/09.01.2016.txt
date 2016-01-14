@@ -1,0 +1,2 @@
+21.17.57	 : ::1 	 Sorgu Yapýldý : INSERT INTO hi_posts VALUES('','1','Deneme 2','Deneme post','','09:01:2016','1452370677') FROM : Main
+21.17.57	 : ::1 	 Sorgu Yapýldý : INSERT INTO hi_posts VALUES('','1','Deneme 2','Deneme post','','09:01:2016','1452370677') FROM : Main
