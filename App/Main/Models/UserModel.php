@@ -73,10 +73,10 @@
 			for($i=0;$i<=$Size;$i++){
 				$Rand1 = rand(0,1);
 				if($Rand1 == 0){
-					$Text.= $abc[rand(0,strlen($abc))];
+					$Text.= $abc[rand(0,strlen($abc)-1)];
 				}
 				else{
-					$Text.= $numbers[rand(0,strlen($numbers))];
+					$Text.= $numbers[rand(0,strlen($numbers)-1)];
 				}
 			}
 			return $Text;
@@ -111,6 +111,15 @@
 					$Info = $this->select("high_users","UserId='$UserId'","$SubScript");
 					if(count($Info)>0){
 						return $Info[0][$SubScript];
+					}
+					else{
+						return "";
+					}
+				}
+				else{
+					$Info = $this->select("high_user_info","UserId='$UserId' and SubScript='$SubScript'");
+					if(count($Info)>0){
+						return $Info[0]["Value"];
 					}
 					else{
 						return "";
@@ -158,9 +167,38 @@
 				return false;
 			}
 		}
-		function PostActivationCode($Title = false, $LeftText = false, $RightText = false){
-			//$Mail = new PHPMailer();
-			//$Mail->IsSMTP();
+		function PostActivationCode($UserId = false,$From = "", $Title = false, $LeftText = false, $RightText = false){
+			if($UserId){
+				$ActivationCode = $this->GetActivationCode($UserId);
+				$Email = $this->GetUserInfo($UserId,"Email");
+				if(!$From){
+					$From = "";
+				}
+				if($ActivationCode and $Email){
+					$Mail = new PHPMailer();
+					$Mail->IsSMTP();
+					$Mail->SMTPDebug = 0;
+					$Mail->DebugOutput = "html";
+					$Mail->host = get::Config("Email","SmtpHost");
+					$Mail->Port = get::Config("Email","SmtpPort");
+					$Mail->SMTPSecure = get::Config("Email","SmtpSecure");
+					$Mail->SMTPAuth = true;
+					$Mail->Username = get::Config("Email","SmtpUsername");
+					$Mail->Password = get::Config("Email","SmtpPassword");
+					$Mail->SetFrom($From,$From);
+					$Mail->AddAddress($Email,$this->GetUserInfo($UserId,"Username"));
+					$Mail->Subject = "Activation Code";
+					$Mail->msgHTML($LeftText.$ActivationCode.$RightText);
+					if($Mail->send()){
+						return true;
+					}
+					else{
+						$this->ErrorCode = 4;
+						$this->ErrorDetail = $Mail->ErrorInfo;
+						return false;
+					}
+				}
+			}
 		}
 		function ActivateUser($UserId = false){
 			if($UserId){

@@ -17,12 +17,12 @@ Copyright 2012-2015 zntr.net - Tüm hakları saklıdır.
 $config['Email'] = array
 (
 	'SmtpHost'			=> '',
-	'SmtpUser'			=> '',
+	'SmtpUsername'			=> '',
 	'SmtpPassword'		=> '',
 	'SmtpPort'			=> 587,
 	'SmtpKeepAlive'		=> false,
 	'SmtpTimeout'		=> 10,
-	'SmtpEncode'		=> 'tls',	// tls, ssl
+	'SmtpSecure'		=> 'tls',	// tls, ssl
 	'SenderMail'		=> '',
 	'SenderName'		=> '',
 	'WordWrap'			=> true,
