@@ -13,5 +13,8 @@
 			}
 			$this->insert("high_posts",false,"'','$PostUserId','$PostTitle','$Post','','$PostDate','$PostTime'");
 		}
+		function UpdatePost(){
+			
+		}
 	}
 ?>

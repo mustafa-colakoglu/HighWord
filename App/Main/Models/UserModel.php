@@ -128,7 +128,7 @@
 			}
 			return false;
 		}
-		function IsActive($UyeId = false){
+		function IsActivated($UyeId = false){
 			if($UyeId){
 				$Info = $this->select("high_users","UyeId='$UyeId'","IsActivated");
 				if(count($Info)>0){
@@ -242,6 +242,25 @@
 			}
 			else{
 				return false;
+			}
+		}
+		function DeleteUser($UserId = false){
+			if($UserId){
+				$UserId = $this->Uselib->clean($UserId);
+				$this->delete("high_users","UserId='$UserId'");
+				$this->delete("high_user_info","UserId='$UserId'");
+			}
+		}
+		function FreezeUser($UserId = false){
+			if($UserId){
+				$UserId = $this->Uselib->clean($UserId);
+				$this->update("high_users","IsFreeze='1'","UserId='$UserId'");
+			}
+		}
+		function UnFreezeUser($UserId = false){
+			if($UserId){
+				$UserId = $this->Uselib->clean($UserId);
+				$this->update("high_users","IsFreeze='0'","UserId='$UserId'");
 			}
 		}
 	}
