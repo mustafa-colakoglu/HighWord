@@ -130,6 +130,9 @@
 			}
 			return $yeni;
 		}
+		function Clean($temizlenen,$belirli=false){
+			$this->clean($temizlenen,$belirli);
+		}
 		function clean($temizlenen,$belirli=false){
 			if($belirli==""){
 				$cikar="'".'";/.,*=-+abcçdefgğhıijklmnoöprsştuüvyzABCÇDEFGĞHIİJKLMNOÖPRSŞTUÜVYZ';

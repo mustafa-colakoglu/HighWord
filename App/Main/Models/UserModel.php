@@ -246,20 +246,20 @@
 		}
 		function DeleteUser($UserId = false){
 			if($UserId){
-				$UserId = $this->Uselib->clean($UserId);
+				$UserId = $this->Uselib->Clean($UserId);
 				$this->delete("high_users","UserId='$UserId'");
 				$this->delete("high_user_info","UserId='$UserId'");
 			}
 		}
 		function FreezeUser($UserId = false){
 			if($UserId){
-				$UserId = $this->Uselib->clean($UserId);
+				$UserId = $this->Uselib->Clean($UserId);
 				$this->update("high_users","IsFreeze='1'","UserId='$UserId'");
 			}
 		}
 		function UnFreezeUser($UserId = false){
 			if($UserId){
-				$UserId = $this->Uselib->clean($UserId);
+				$UserId = $this->Uselib->Clean($UserId);
 				$this->update("high_users","IsFreeze='0'","UserId='$UserId'");
 			}
 		}
