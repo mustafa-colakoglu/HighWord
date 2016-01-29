@@ -30,10 +30,101 @@
 					$UpdatesNew = trim($UpdatesNew,",");
 					$this->update("high_posts",$UpdatesNew,"PostId='$PostId'");
 					foreach($UpdatesAdd as $Sub => $Value){
-						
+						$this->RegisterPostInfo($PostId,$Sub,$Value);
 					}
 				}
 			}
+		}
+		function RegisterPostInfo($PostId = false,$SubScript = false,$Value = ""){
+			if($PostId and $SubScript){
+				$PostId = $this->Uselib->Clean($PostId);
+				if($PostId){
+					$Control = $this->select("high_post_info","PostId='$PostId' and SubScript='$SubScript'");
+					if(count($Control)<0){
+						$this->insert("high_post_info",false,"'','$PostId','$SubScript','$Value'");
+					}
+					else{
+						$this->update("high_post_info","Value='$Value'","PostId='$PostId' and SubScript='$SubScript'");
+					}
+				}
+			}
+		}
+		function AddPostTag($PostId = false, $Tags = false){
+			if($PostId and $Tags){
+				$PostId = $this->Uselib->Clean($PostId);
+				if($PostId){
+					if(is_string($Tags)){
+						$Tags = $this->Uselib->formDataFix($Tags);
+						$this->insert("high_post_tags",false,"'','$PostId','$Tags'");
+					}
+					else if(is_array($Tags)){
+						for($i=0;$i<count($Tags);$i++){
+							$Tag = $this->Uselib->Clean($Tags[$i]);
+							$this->insert("high_post_tags",false,"'','$PostId','$Tag'");
+						}
+					}
+					else{
+						return false;
+					}
+				}
+			}
+		}
+		function UploadPostImage($PostId = false,$Files = false,$ImageType = 0){
+			if($PostId and $Files){
+				$PostId = $this->Uselib->Clean($PostId);
+				if($PostId){
+					if(isset($_FILES[$Files])){
+						foreach($_FILES as $File){
+							$Image = $File;
+							if($Image["type"] == "image/jpeg" or $Image["type"] == "image/jpg" or $Image["type"] == "image/pjpeg"){
+								$Uzanti = ".jpg";
+							}
+							else if($Image["type"] == "image/png"){
+								$Uzanti = ".png";
+							}
+							else{
+								return false;
+							}
+							$FileName = $this->CreateFileName().$Uzanti;
+							$Copy = copy($File["tmp_name"],APPLICATION_PATH."/Front/images/".$FileName);
+							if($Copy){
+								$this->insert("high_post_images",false,"'','$PostId','$FileName','$ImageType'");
+							}
+							else{
+								$this->ErrorCode = 7;
+								$this->Error = "This image cant loaded.[ ".$File["name"]." ]";
+							}
+						}
+					}
+					else{
+						return false;
+					}
+				}
+				else{
+					return false;
+				}
+			}
+			else{
+				return false;
+			}
+		}
+		function CreateFileName(){
+			$FileName = rand(100000,999999);
+			if(file_exists(APPLICATION_PATH."/Front/images/".$FileName.".png") or file_exists(APPLICATION_PATH."/Front/images/".$FileName.".jpg")){
+				return $this->CreateFileName();
+			}
+			else{
+				return $FileName;
+			}
+		}
+		function test(){
+			$a = new a();
+			$a->b();
+		}
+	}
+	class a{
+		function b(){
+			echo "b fonk";
 		}
 	}
 ?>
