@@ -1,2 +1,2 @@
 # HighWord
-Documentation : http://mcolak.net/Kategori/HighWord
+Documentation : http://mcolak.net/Kategori/3
