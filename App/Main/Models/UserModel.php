@@ -12,12 +12,10 @@
 		function NewUser($UserName = false, $Password = false, $Email = false){
 			if($UserName and $Password and $Email){
 				if($this->CheckUserByUserName($UserName)){
-					$this->ErrorCode = 1;
 					$this->ErrorDetail = "This user already exist.";
 					return false;
 				}
 				else if($this->CheckUserByEmail($Email)){
-					$this->ErrorCode = 2;
 					$this->ErrorDetail = "This email already exist.";
 					return false;
 				}
@@ -28,11 +26,14 @@
 						return true;
 					}
 					else{
-						$this->ErrorCode = 3;
 						$this->ErrorDetail = "Failed User Adding.";
 						return false;
 					}
 				}
+			}
+			else{
+				$this->Error = "Username or Password or Email dont valid.";
+				return false;
 			}
 		}
 		function CheckUserByUserName($UserName = false){
