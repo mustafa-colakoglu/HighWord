@@ -69,32 +69,40 @@
 				}
 			}
 		}
-		function UploadPostImage($PostId = false,$Files = false,$ImageType = 0){
+		function UploadPostImage($PostId = false,$Files = false,$ImageType = 0,SetImage $Settings){
 			if($PostId and $Files){
 				$PostId = $this->Uselib->Clean($PostId);
 				if($PostId){
 					if(isset($_FILES[$Files])){
+						$ImageNames = array();
 						foreach($_FILES as $File){
-							$Image = $File;
-							if($Image["type"] == "image/jpeg" or $Image["type"] == "image/jpg" or $Image["type"] == "image/pjpeg"){
-								$Uzanti = ".jpg";
-							}
-							else if($Image["type"] == "image/png"){
-								$Uzanti = ".png";
-							}
-							else{
-								return false;
-							}
-							$FileName = $this->CreateFileName().$Uzanti;
-							$Copy = copy($File["tmp_name"],APPLICATION_PATH."/Front/images/".$FileName);
-							if($Copy){
-								$this->insert("high_post_images",false,"'','$PostId','$FileName','$ImageType'");
-							}
-							else{
-								$this->ErrorCode = 7;
-								$this->Error = "This image cant loaded.[ ".$File["name"]." ]";
+							if($File["error"] == 0){
+								$Image = $File;
+								if($Image["type"] == "image/jpeg" or $Image["type"] == "image/jpg" or $Image["type"] == "image/pjpeg"){
+									$Uzanti = ".jpg";
+								}
+								else if($Image["type"] == "image/png"){
+									$Uzanti = ".png";
+								}
+								else{
+									return false;
+								}
+								$FileName = $this->CreateFileName().$Uzanti;
+								$Copy = copy($File["tmp_name"],APPLICATION_PATH."/Front/images/".$FileName);
+								if($Copy){
+									array_push($ImageNames, $FileName);
+									if($Settings){
+										$Settings->SaveImage($FileName.$Uzanti);
+									}
+									$this->insert("high_post_images",false,"'','$PostId','$FileName','$ImageType'");
+								}
+								else{
+									$this->ErrorCode = 7;
+									$this->Error = "This image cant loaded.[ ".$File["name"]." ]";
+								}
 							}
 						}
+						return $ImageNames;
 					}
 					else{
 						return false;
@@ -117,14 +125,43 @@
 				return $FileName;
 			}
 		}
-		function test(){
-			$a = new a();
-			$a->b();
+		function GetPosts($Features = array(), $Sort = "ASC"){
+			/*
+				Example array:
+				array(
+					"PostId" => array(),
+					"Like" => array(),
+					"Tags" => array(),
+					"UserId" => array(),
+					"CategoryId" => array(),
+					"Pagination" => array(
+						"Limit" => 10, #ex
+						"Page" => 3 #ex
+					)
+				);
+			*/
+			$Posts = array();
+			if(is_array($Features["PostId"])){
+				array_merge($Posts,$this->GetPostsFromId($Features["PostId"]));
+			}
+			if(is_array($Features["Like"])){
+				
+			}
+			for($i=0;$i<count($Features["PostId"]);$i++){
+				$Features["PostId"][$i] = "PostId='".$this->Uselib->clean($Features[$i]["PostId"])."'";
+			}
 		}
-	}
-	class a{
-		function b(){
-			echo "b fonk";
+		function GetPostsFromId($Ids = array()){
+			return array();
+		}
+		function GetPostsFromLike($Likes = array()){
+			return array();
+		}
+		function GetPostsFromTag($Tags = array()){
+			return array();
+		} 
+		function GetPostFromCategory($CategoryIds =  array()){
+			return array();
 		}
 	}
 ?>

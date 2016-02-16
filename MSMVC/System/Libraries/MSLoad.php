@@ -7,7 +7,7 @@
 
 //---------------------------------------------------------------------------
 
-	* MSMVC MSLoad
+	* MSMVC MSCache
 	* @package MSMVC
 	* @author Mustafa Çolakoğlu
 **/
