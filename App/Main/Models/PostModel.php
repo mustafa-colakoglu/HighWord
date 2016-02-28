@@ -6,12 +6,12 @@
 		function __construct(){
 			parent::__construct();
 		}
-		function NewPost($PostUserId = 1, $PostTitle = "", $Post = "", $PostDate = ""){
+		function NewPost($PostUserId = 1, $PostTitle = "", $Post = "", $PostDate = "",$CategoryId = 0){
 			$PostTime = time();
 			if($PostDate == ""){
 				$PostDate = date("d.m.Y");
 			}
-			$this->insert("high_posts",false,"'','$PostUserId','$PostTitle','$Post','','$PostDate','$PostTime'");
+			$this->insert("high_posts","PostUserId,PostTitle,Post,PostDate,PostTime,CategoryId","'$PostUserId','$PostTitle','$Post','$PostDate','$PostTime','$CategoryId'");
 		}
 		function UpdatePost($PostId = false,$Updates = false){
 			if($PostId){
@@ -34,6 +34,7 @@
 					}
 				}
 			}
+			return false;
 		}
 		function RegisterPostInfo($PostId = false,$SubScript = false,$Value = ""){
 			if($PostId and $SubScript){
@@ -125,7 +126,7 @@
 				return $FileName;
 			}
 		}
-		function GetPosts($Features = array(), $Sort = "ASC"){
+		function GetPosts($Features = array(),$Sort = array("By" => "PostId","Sort" => "DESC")){
 			/*
 				Example array:
 				array(
@@ -135,33 +136,108 @@
 					"UserId" => array(),
 					"CategoryId" => array(),
 					"Pagination" => array(
-						"Limit" => 10, #ex
-						"Page" => 3 #ex
+						"Limit" => 10, #example
+						"Page" => 3 #example
 					)
 				);
 			*/
-			$Posts = array();
-			if(is_array($Features["PostId"])){
-				array_merge($Posts,$this->GetPostsFromId($Features["PostId"]));
+			if(isset($Features["PostId"])){
+				$PostId = $this->CleanPostId($Features["PostId"]);
+				for($i=0;$i<count($PostId);$i++){
+					$PostId[$i] = "high_posts.PostId='".$PostId[$i]."'";
+				}
+				$PostIdImplode = "".implode(" OR ",$PostId)."";
+				if($PostIdImplode == ""){
+					$PostIdImplode = "high_posts.PostId!='0'"; // For All Posts
+				}
 			}
-			if(is_array($Features["Like"])){
-				
+			else{
+				$PostIdImplode = "high_posts.PostId!='0'";
 			}
-			for($i=0;$i<count($Features["PostId"]);$i++){
-				$Features["PostId"][$i] = "PostId='".$this->Uselib->clean($Features[$i]["PostId"])."'";
+			$LikeImplode = " high_posts.PostTitle LIKE '%%'";
+			if(isset($Features["Like"])){
+				$Like = $Features["Like"];
+				for($i=0;$i<count($Like);$i++){
+					$Like[$i] = "(CONCAT(high_posts.PostTitle,high_posts.Post) LIKE '".$Like[$i]."')";
+				}
+				$LikeImplode = "".implode(" OR ",$Like)."";
 			}
+			$TagImplode = "";
+			if(isset($Features["Tags"])){
+				$Tags = $Features["Tags"];
+				for($i=0;$i<count($Tags);$i++){
+					$Tags[$i] = "high_post_tags.Tag='".$Tags[$i]."'";
+				}
+				$TagImplode = "".implode(" OR ",$Tags)."";
+			}
+			$CategoryImplode = "high_posts.CategoryId!='-1'";
+			if(isset($Features["CategoryId"])){
+				$CategoryIds = $Features["CategoryId"];
+				for($i=0;$i<count($CategoryIds);$i++){
+					$CategoryIds[$i] = "high_posts.CategoryId='".$CategoryIds[$i]."'";
+				}
+				$CategoryImplode = implode(" OR ",$CategoryIds);
+			}
+			$Limit = "";
+			if(isset($Features["Pagination"])){
+				$Pagination = $Features["Pagination"];
+				$Start = $Pagination["Page"]*$Pagination["Limit"];
+				$Finish = $Pagination["Limit"];
+				$Limit = " LIMIT ".$Start.",".$Finish;
+			}
+			$UserIdImplode = "high_posts.PostUserId!='-1'";
+			if(isset($Features["UserId"])){
+				$UserIds = $Features["UserId"];
+				for($i=0;$i<count($UserIds);$i++){
+					$UserIds[$i] = "high_posts.PostUserId='".$UserIds[$i]."'";
+				}
+				$UserIdImplode = implode(" OR ",$UserIds);
+			}
+			if(!isset($Sort["By"])){
+				$Sort["By"] = "PostId";
+			}
+			if(!isset($Sort["Sort"])){
+				$Sort["Sort"] = "DESC";
+			}
+			switch($Sort["By"]){
+				case "PostId": $SortTable="high_posts";break;
+				case "PostUserId": $SortTable="high_posts";break;
+				case "PostTitle": $SortTable="high_posts";break;
+				case "Post": $SortTable="high_posts";break;
+				case "PostDate": $SortTable="high_posts";break;
+				case "PostTime": $SortTable="high_posts";break;
+				case "Tag": $SortTable="high_post_tags";break;
+				default:$SortTable="high_posts";break;
+			}
+			if($TagImplode == "" or empty($TagImplode)){
+				$posts = $this->select(
+					"high_posts",
+					$LikeImplode." AND ".$PostIdImplode." AND ".$CategoryImplode." AND ".$UserIdImplode,
+					"high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime",
+					"ORDER BY ".$SortTable.".".$Sort["By"]." ".$Sort["Sort"].$Limit
+				);
+
+			}
+			else{
+				$posts = $this->select(
+					"high_posts",
+					"",
+					"high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime,high_post_tags.TagId,high_post_tags.PostId,high_post_tags.Tag",
+					"INNER JOIN high_post_tags ON high_posts.PostId=high_post_tags.PostId AND ".$TagImplode." AND ".$LikeImplode." AND ".$PostIdImplode." AND ".$CategoryImplode." AND ".$UserIdImplode." GROUP BY high_post_tags.PostId ORDER BY ".$SortTable.".".$Sort["By"]." ".$Sort["Sort"].$Limit
+				);
+			}
+			return $posts;
 		}
-		function GetPostsFromId($Ids = array()){
-			return array();
-		}
-		function GetPostsFromLike($Likes = array()){
-			return array();
-		}
-		function GetPostsFromTag($Tags = array()){
-			return array();
-		} 
-		function GetPostFromCategory($CategoryIds =  array()){
-			return array();
+		function CleanPostId($Id = array()){
+			if(!is_array($Id)){
+				return $this->Uselib->clean($Id);
+			}
+			else{
+				for($i=0;$i<count($Id);$i++){
+					$Id[$i] = $this->CleanPostId($Id[$i]);
+				}
+				return $Id;
+			}
 		}
 	}
 ?>
