@@ -1,0 +1,75 @@
+a{
+	color : #000;
+}
+a:hover{
+	color : #aaa;
+}
+header{
+	width:100%;
+}
+	header menu{
+		width:700px;
+		height:auto;
+		float:none;
+		margin:0 auto;
+	}
+section{
+	width:100%;
+}
+	section .main{
+		width:700px;
+		float:none;
+		margin:0 auto;
+		height:auto;
+		margin-top:20px;
+	}
+		section .main .sol{
+			width:200px;
+			height:auto;
+		}
+		.sol ul{
+			width:200px;
+			height:auto;
+		}
+			.sol ul li{
+				width:180px;
+				height:auto;
+				padding:10px;
+			}
+		.sag{
+			width:500px;
+			height:auto;
+		}
+			.sag ul{
+				width:500px;
+				height:auto;
+			}
+				.sag ul li{
+					width:500px;
+					padding-top:10px;
+					padding-bottom:5px;
+					border-bottom:3px solid;
+				}
+				.sag ul li h5{
+					width:500px;
+					display:block;
+					font-size:20px;
+				}
+				.sag ul li p{
+					width:500px;
+					height:auto;
+				}
+				.sag ul li a{
+					width:500px;
+					text-align:right;
+					display:block;
+				}
+			.sayilar a{
+				display:block;
+				float:left;
+				padding:3px;
+				color:#ccc;
+			}
+			.sayilar a.aktif{
+				color:#000;
+			}

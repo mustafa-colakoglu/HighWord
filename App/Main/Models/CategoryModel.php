@@ -1,7 +1,7 @@
 <?php
 	namespace Models;
 	use MS\MSModel;
-	class CatergorModel extends MSModel{
+	class CategoryModel extends MSModel{
 		function NewCategory($CategoryName = false, $Sub = 0){
 			if(is_string($CategoryName)){
 				$CategoryName = $this->Uselib->formDataFix($CategoryName);
@@ -18,6 +18,14 @@
 					$Value = $this->Uselib->formDataFix($Value);
 					$this->update("high_categories","$SubString='$Value'","CategoryId='$CategoryId'");
 				}
+			}
+		}
+		function GetCategories($Sub = 0){
+			return $this->select("high_categories","Sub='$Sub'");
+		}
+		function DeleteCategory($CategoryId = false){
+			if($CategoryId and is_numeric($CategoryId)){
+				$this->delete("high_categories","CategoryId='$CategoryId'");
 			}
 		}
 	}

@@ -9,6 +9,7 @@
 				$PostDate = date("d.m.Y");
 			}
 			$this->insert("high_posts","PostUserId,PostTitle,Post,PostDate,PostTime,CategoryId","'$PostUserId','$PostTitle','$Post','$PostDate','$PostTime','$CategoryId'");
+			return $this->lastInsertId();
 		}
 		function UpdatePost($PostId = false,$Updates = false){
 			if($PostId){
@@ -226,6 +227,16 @@
 				);
 			}
 			return $posts;
+		}
+		function DeletePost($PostId = false){
+			if($PostId and is_numeric($PostId)){
+				$this->delete("high_posts","PostId='$PostId'");
+				$this->delete("high_post_tags","PostId='$PostId'");
+				$this->delete("high_post_info","PostId='$PostId'");
+				$this->delete("high_post_images","PostId='$PostId'");
+				return true;
+			}
+			return false;
 		}
 		function CleanPostId($Id = array()){
 			if(!is_array($Id)){

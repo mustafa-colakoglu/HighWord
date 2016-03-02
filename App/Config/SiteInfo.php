@@ -1,6 +1,6 @@
 <?php
 	$config["SiteInfo"] = array(
-		"site" => "http://localhost/hiscript",
+		"site" => "http://localhost/HighWord",
 		"welcomeController" => "Main"
 	);
 ?>

@@ -20,3 +20,508 @@
 08.49.08	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_posts  LIMIT 2 FROM : Main/GetPostTest
 08.49.12	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : Main/GetPostTest
 09.37.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : Main/GetPostTest
+12.35.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.53.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.56.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.57.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.58.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.07	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+12.59.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.00.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/BlogTest/Install
+13.00.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/BlogTest/Install
+13.00.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/BlogTest/BlogTest/BlogTest/Install
+13.00.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/BlogTest/BlogTest/BlogTest/Install
+13.00.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.00.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.07.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.07.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.12.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.13.02	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.18.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.18.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.18.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.18.43	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','72VJ107D2') FROM : BlogTest/Install
+13.18.43	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.19.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.19.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.19.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.19.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.19.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.19.51	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.21.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.22.02	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.22.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.22.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.22.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.23.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.23.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.23.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.24.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.24.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.24.58	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.25.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.25.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.25.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.25.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.25.31	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','A8499VEW5') FROM : BlogTest/Install
+13.25.31	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.25.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.25.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.26.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.27.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.27.33	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.27.33	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.28.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.28.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.28.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.28.45	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','C5145GA4N') FROM : BlogTest/Install
+13.28.45	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','U6P5Y87M2') FROM : BlogTest/Install
+13.29.28	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.29.28	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_user_info WHERE UserId='1' and SubScript='Adminmi'  FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_user_info(UserId,SubScript,Value) VALUES('1','Adminmi','1') FROM : BlogTest/Install
+13.29.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.29.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.29.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','2P076X00W') FROM : BlogTest/Install
+13.30.19	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.30.19	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_user_info WHERE UserId='1' and SubScript='Adminmi'  FROM : BlogTest/Install
+13.30.19	 : ::1 	 Sorgu Yapıldı : UPDATE high_user_info SET Value='1' WHERE UserId='1' and SubScript='Adminmi' FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa220'  FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa220','mustafa','musto_220@windowslive.com','M29SQ2GS1') FROM : BlogTest/Install
+13.30.36	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.30.36	 : ::1 	 Son insert id çekildi : 1 FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_user_info WHERE UserId='1' and SubScript='Adminmi'  FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : UPDATE high_user_info SET Value='1' WHERE UserId='1' and SubScript='Adminmi' FROM : BlogTest/Install
+13.30.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.45.49	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.47.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.48.02	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/actionIndex
+13.48.08	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/actionIndex/2
+13.48.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+13.49.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+13.49.10	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+13.50.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+13.50.36	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,1 FROM : BlogTest/2
+13.50.42	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.51.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.51.21	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.51.30	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.51.30	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.53.44	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.53.44	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.54.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.54.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.54.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.54.17	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.55.09	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.55.09	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.55.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.55.34	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.55.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.55.37	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.55.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.55.37	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.55.48	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.55.48	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.56.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.56.11	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.56.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.56.13	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.56.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.56.39	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.57.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.57.57	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.58.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.58.15	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.58.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.58.47	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.59.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.59.00	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.59.01	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.59.01	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.59.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+13.59.06	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+13.59.06	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.01.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.01.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.01.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.01.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.01.28	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.01.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.01.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.01.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.01.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.01.58	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.01.58	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.01.58	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.02.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.02.00	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.02.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.02.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.02.28	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.02.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.02.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.02.52	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.02.52	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.03.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.03.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.03.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.03.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.03.19	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.03.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.03.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.03.21	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.03.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.05.02	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.05.02	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.05.02	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.05.33	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.05.33	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.05.33	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.05.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.05.53	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.05.53	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.05.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/5
+14.05.54	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/PostDetay/5
+14.05.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/PostDetay/5
+14.05.56	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/5
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/5
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/PostDetay/5
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/5
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.05.57	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.06.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.06.40	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.06.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.06.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.06.50	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.06.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.07.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.07.41	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.07.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.08.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.08.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.08.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.08.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.08.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.08.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.08.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.08.54	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.08.54	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.09.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.09.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.09.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.09.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.09.21	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.09.21	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.09.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.09.38	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.09.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.09.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.09.55	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.09.55	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.10.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.10.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.10.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.10.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.10.13	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.10.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.10.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/5
+14.10.17	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/PostDetay/5
+14.10.17	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/5
+14.10.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.10.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest
+14.10.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.10.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.10.24	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/1
+14.10.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.10.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.10.26	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,1 FROM : BlogTest/2
+14.10.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.10.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.10.28	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 3,1 FROM : BlogTest/3
+14.10.28	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.10.30	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/4
+14.10.30	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,1 FROM : BlogTest/4
+14.10.30	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/4
+14.10.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/5
+14.10.32	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 5,1 FROM : BlogTest/5
+14.10.32	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/5
+14.10.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.10.34	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 1,1 FROM : BlogTest/1
+14.10.34	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.10.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.10.36	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,1 FROM : BlogTest/2
+14.10.36	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.10.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.10.38	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 3,1 FROM : BlogTest/3
+14.10.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.11.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.11.11	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 3,1 FROM : BlogTest/3
+14.11.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.11.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.11.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 3,1 FROM : BlogTest/3
+14.11.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.11.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.11.37	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 3,1 FROM : BlogTest/3
+14.11.37	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.11.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/3
+14.11.41	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 6,2 FROM : BlogTest/3
+14.11.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/3
+14.11.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.11.45	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest
+14.11.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.13.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.13.26	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.13.26	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.13.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.13.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.13.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.14.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.14.00	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.14.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.14.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.14.19	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.14.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.15.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.15.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.15.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.15.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest
+14.16.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.16.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.16.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.16.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest
+14.16.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.16.23	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.16.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.16.23	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest
+14.16.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.16.27	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.16.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.16.27	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest
+14.16.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest
+14.16.38	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest
+14.16.38	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest
+14.16.38	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest
+14.16.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.16.41	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.16.41	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.16.41	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.16.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.16.43	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,2 FROM : BlogTest/2
+14.16.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.16.43	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/2
+14.16.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.16.45	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.16.45	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.16.45	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.16.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.16.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.16.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.16.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.17.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.17.39	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.17.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.17.39	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.17.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.17.50	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.17.50	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.17.50	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.17.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.17.59	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.17.59	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.17.59	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.18.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.18.11	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.18.11	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.18.11	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.18.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.12	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.12	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.12	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.18.13	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,2 FROM : BlogTest/2
+14.18.13	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.18.13	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/2
+14.18.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.14	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.14	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.18.15	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.18.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.18.15	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,2 FROM : BlogTest/2
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.18.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/2
+14.18.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.18	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.18	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.18.19	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.18.19	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.18.19	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.18.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.22	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.22	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.22	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.18.23	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.18.23	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.18.23	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.18.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.18.24	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.18.24	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.18.24	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.18.25	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.18.25	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,2 FROM : BlogTest/2
+14.18.25	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.18.25	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/2
+14.20.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.20.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.20.04	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.20.04	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.20.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.20.05	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.20.05	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.20.05	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.20.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/PostDetay/6
+14.20.15	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/PostDetay/6
+14.20.15	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/PostDetay/6
+14.20.15	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/PostDetay/6
+14.20.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.20.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.20.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.20.16	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.20.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.20.27	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.20.27	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.20.27	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.20.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.20.39	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.20.39	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.20.39	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0
+14.20.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.20.43	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.20.43	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.20.43	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.20.44	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/2
+14.20.44	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 4,2 FROM : BlogTest/2
+14.20.44	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/2
+14.20.44	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/2
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/1
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 2,2 FROM : BlogTest/1
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/1
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/1
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/0
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC LIMIT 0,2 FROM : BlogTest/0
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_categories WHERE Sub='0'  FROM : BlogTest/0
+14.20.46	 : ::1 	 Sorgu Yapıldı : SELECT high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime FROM high_posts WHERE  high_posts.PostTitle LIKE '%%' AND high_posts.PostId!='0' AND high_posts.CategoryId!='-1' AND high_posts.PostUserId!='-1' ORDER BY high_posts.PostId DESC FROM : BlogTest/0

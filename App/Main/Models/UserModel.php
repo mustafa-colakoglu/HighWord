@@ -20,7 +20,7 @@
 					$ActivationCode = $this->CreateActivationCode();
 					$this->insert("high_users","UserName,Password,Email,ActivationCode","'$UserName','$Password','$Email','$ActivationCode'");
 					if($this->lastInsertId()>0){
-						return true;
+						return $this->lastInsertId();
 					}
 					else{
 						$this->ErrorDetail = "Failed User Adding.";
@@ -29,7 +29,7 @@
 				}
 			}
 			else{
-				$this->Error = "Username or Password or Email dont valid.";
+				$this->ErrorDetail = "Username or Password or Email dont valid.";
 				return false;
 			}
 		}
@@ -243,7 +243,7 @@
 			}
 		}
 		function DeleteUser($UserId = false){
-			if($UserId){
+			if($UserId and is_numeric($UserId)){
 				$UserId = $this->Uselib->Clean($UserId);
 				$this->delete("high_users","UserId='$UserId'");
 				$this->delete("high_user_info","UserId='$UserId'");

@@ -200,6 +200,9 @@
 						$running->actionIndex();
 					}
 				}
+				else{
+					
+				}
 			}
 		}
 		public function runCache(MSController $running,$method,$controller){
@@ -224,6 +227,9 @@
 				$ModelName = "Models\\".implode($ModelName,"\\")."Model";
 				if(class_exists($ModelName)){
 					return new $ModelName;
+				}
+				else{
+					echo $ModelName;
 				}
 			}
 		}
