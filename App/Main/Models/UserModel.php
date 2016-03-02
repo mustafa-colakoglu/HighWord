@@ -6,9 +6,6 @@
 	class UserModel extends MSModel{
 		public $ErrorCode;
 		public $ErrorDetail;
-		function __construct(){
-			parent::__construct();
-		}
 		function NewUser($UserName = false, $Password = false, $Email = false){
 			if($UserName and $Password and $Email){
 				if($this->CheckUserByUserName($UserName)){

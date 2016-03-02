@@ -77,6 +77,9 @@
 		function delete($tablo,$where=false){
 			return $this->Database->delete($tablo,$where);
 		}
+		function lastInsertId(){
+			return $this->Database->lastInsertId();
+		}
 	}
 //---------------------------------------------------------------------------
 /* End of file MSDb.php */

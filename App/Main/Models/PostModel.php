@@ -3,9 +3,6 @@
 	use MS\MSModel;
 	use User;
 	class PostModel extends MSModel{
-		function __construct(){
-			parent::__construct();
-		}
 		function NewPost($PostUserId = 1, $PostTitle = "", $Post = "", $PostDate = "",$CategoryId = 0){
 			$PostTime = time();
 			if($PostDate == ""){
@@ -128,7 +125,7 @@
 		}
 		function GetPosts($Features = array(),$Sort = array("By" => "PostId","Sort" => "DESC")){
 			/*
-				Example array:
+				Example array: $Features
 				array(
 					"PostId" => array(),
 					"Like" => array(),
@@ -170,6 +167,14 @@
 				}
 				$TagImplode = "".implode(" OR ",$Tags)."";
 			}
+			$UserIdImplode = "high_posts.PostUserId!='-1'";
+			if(isset($Features["UserId"])){
+				$UserIds = $Features["UserId"];
+				for($i=0;$i<count($UserIds);$i++){
+					$UserIds[$i] = "high_posts.PostUserId='".$UserIds[$i]."'";
+				}
+				$UserIdImplode = implode(" OR ",$UserIds);
+			}
 			$CategoryImplode = "high_posts.CategoryId!='-1'";
 			if(isset($Features["CategoryId"])){
 				$CategoryIds = $Features["CategoryId"];
@@ -184,14 +189,6 @@
 				$Start = $Pagination["Page"]*$Pagination["Limit"];
 				$Finish = $Pagination["Limit"];
 				$Limit = " LIMIT ".$Start.",".$Finish;
-			}
-			$UserIdImplode = "high_posts.PostUserId!='-1'";
-			if(isset($Features["UserId"])){
-				$UserIds = $Features["UserId"];
-				for($i=0;$i<count($UserIds);$i++){
-					$UserIds[$i] = "high_posts.PostUserId='".$UserIds[$i]."'";
-				}
-				$UserIdImplode = implode(" OR ",$UserIds);
 			}
 			if(!isset($Sort["By"])){
 				$Sort["By"] = "PostId";
@@ -209,14 +206,16 @@
 				case "Tag": $SortTable="high_post_tags";break;
 				default:$SortTable="high_posts";break;
 			}
-			if($TagImplode == "" or empty($TagImplode)){
+			if(!is_array($Features) and is_numeric($Features)){
+				$posts = $this->select("high_posts","","","LIMIT ".$Features);
+			}
+			else if($TagImplode == "" or empty($TagImplode)){
 				$posts = $this->select(
 					"high_posts",
 					$LikeImplode." AND ".$PostIdImplode." AND ".$CategoryImplode." AND ".$UserIdImplode,
 					"high_posts.PostId,high_posts.PostUserId,high_posts.PostTitle,high_posts.Post,high_posts.PostDate,high_posts.PostTime",
 					"ORDER BY ".$SortTable.".".$Sort["By"]." ".$Sort["Sort"].$Limit
 				);
-
 			}
 			else{
 				$posts = $this->select(

@@ -1,0 +1,11 @@
+12.35.31	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.36.47	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest
+12.36.47	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa','mustafa','musto_220@windowslive.com','FLBILPM1T') FROM : BlogTest
+12.39.00	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.39.08	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.39.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.39.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE UserName='mustafa'  FROM : BlogTest
+12.39.16	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users WHERE Email='musto_220@windowslive.com'  FROM : BlogTest
+12.39.16	 : ::1 	 Sorgu Yapıldı : INSERT INTO high_users(UserName,Password,Email,ActivationCode) VALUES('mustafa','mustafa','musto_220@windowslive.com','2HV7CGAIW') FROM : BlogTest
+12.39.16	 : ::1 	 Son insert id çekildi : 2 FROM : BlogTest
