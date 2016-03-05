@@ -34,7 +34,7 @@
 			$data["suankisayfa"] = $Page;
 			$this->view("BlogTest/Header");
 			$this->view("BlogTest/Section",$data);
-			$this->view("Footer");
+			$this->view("BlogTest/Footer");
 		}
 	}
 ?>

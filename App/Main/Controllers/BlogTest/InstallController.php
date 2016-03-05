@@ -19,7 +19,7 @@
 			if($_POST){
 				$Kaydet = $this->model("BlogTest/IlkKullaniciKayit")->Kaydet();
 				if($Kaydet){
-					header("Location:".get::site()."/BlogTest");
+					header("Location:".$this->site."/BlogTest");
 				}
 				else{
 					

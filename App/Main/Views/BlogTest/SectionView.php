@@ -36,7 +36,7 @@
 						}
 						else{
 						?>
-						<a href="<?php echo get::site(); ?>/BlogTest/<?php echo $i; ?>"><?php echo $i+1; ?>
+						<a href="<?php echo get::site(); ?>/BlogTest/<?php echo $i; ?>"><?php echo $i+1; ?></a>
 						<?php
 						}
 					}

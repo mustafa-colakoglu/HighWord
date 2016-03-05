@@ -20,12 +20,16 @@
 				}
 			}
 		}
-		function GetCategories($Sub = 0){
+		function GetCategories($Sub = "*"){
+			if($Sub == "*"){
+				return $this->select("high_categories");
+			}
 			return $this->select("high_categories","Sub='$Sub'");
 		}
 		function DeleteCategory($CategoryId = false){
 			if($CategoryId and is_numeric($CategoryId)){
 				$this->delete("high_categories","CategoryId='$CategoryId'");
+				$this->delete("high_categories","Sub='$CategoryId'");
 			}
 		}
 	}

@@ -73,3 +73,7 @@ section{
 			.sayilar a.aktif{
 				color:#000;
 			}
+footer{
+	width:100%;
+	text-align:center;
+}
