@@ -27,7 +27,7 @@
 				$Page = 0;
 			}
 			$data = array();
-			$Limit = 2;
+			$Limit = 5;
 			$data["posts"] = $this->model("Post")->GetPosts(array("Pagination" => array("Page" => $Page,"Limit" => $Limit)));
 			$data["kategoriler"] = $this->model("Category")->GetCategories();
 			$data["toplamsayfa"] = count($this->model("Post")->GetPosts())/$Limit;

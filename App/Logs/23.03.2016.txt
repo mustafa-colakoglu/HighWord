@@ -1,0 +1,2 @@
+10.04.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_users  LIMIT 1 FROM : BlogTest/Gundem
+10.04.40	 : ::1 	 Sorgu Yapıldı : SELECT * FROM high_post_tags WHERE Time>=1458637480  FROM : BlogTest/Gundem

@@ -48,7 +48,7 @@
 				$this->controller($this->url);
 			}
 		}
-		public function controller($url = false,$method = "actionIndex"){	
+		public function controller($url = false,$method = "actionIndex"){
 			if(!$url){
 				$this->controller($this->welcomeController);
 				return true;
@@ -64,6 +64,10 @@
 					$this->TempController = $url;
 				}
 				$controller = implode($url,"/");
+			}
+			if(ENVIRONMENT == "design"){
+				$this->view($controller);
+				exit;
 			}
 			$dir = APPLICATION_PATH."Main/Controllers/".implode($url,"/");
 			if(is_dir($dir)){
@@ -200,9 +204,6 @@
 						$running->actionIndex();
 					}
 				}
-				else{
-					
-				}
 			}
 		}
 		public function runCache(MSController $running,$method,$controller){
@@ -227,9 +228,6 @@
 				$ModelName = "Models\\".implode($ModelName,"\\")."Model";
 				if(class_exists($ModelName)){
 					return new $ModelName;
-				}
-				else{
-					echo $ModelName;
 				}
 			}
 		}

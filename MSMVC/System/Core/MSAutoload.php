@@ -18,8 +18,9 @@ class MSAutoload{
 	 * include class
 	 */
 	function loadMSStatic(){
-		require SYSTEM_PATH."Libraries/get.php";
 		require SYSTEM_PATH."Libraries/MS.php";
+		require SYSTEM_PATH."Libraries/get.php";
+		require SYSTEM_PATH."Libraries/Form.php";
 		require SYSTEM_PATH."Libraries/Uselib.php";
 		require SYSTEM_PATH."Libraries/Session.php";
 	}
@@ -28,7 +29,10 @@ class MSAutoload{
 		
 		if(isset($classMap[$className]))
 		{
-			include $classMap[$className];
+			require $classMap[$className];
+		}
+		else if(is_file(APPLICATION_PATH."/Libraries/".$className.".php")){
+			require APPLICATION_PATH."/Libraries/".$className.".php";
 		}
 		else{
 		
@@ -101,6 +105,7 @@ class MSAutoload{
 			"MS\MSUselib" => SYSTEM_PATH."Libraries/MSUselib.php",
 			"Pagination" => SYSTEM_PATH."Libraries/Pagination.php",
 			"Json" => SYSTEM_PATH."Libraries/Json.php",
+			"System" => SYSTEM_PATH."Core/System.php",
 			"MS\Redis" => SYSTEM_PATH."Libraries/Redis.php",
 			"MS\Upload" => SYSTEM_PATH."Libraries/Upload.php",
 			"PHPMailer" => SYSTEM_PATH."Libraries/PHPMailer/class.phpmailer.php",

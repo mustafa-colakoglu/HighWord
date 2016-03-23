@@ -6,7 +6,7 @@
 				<?php
 					foreach($kategoriler as $kat){
 					?>
-					<li><a href="<?php echo get::site(); ?>/BlogTest/Kategori/<?php echo $kat["CategoryId"]; ?>"><?php echo $kat["CategoryName"]; ?></a></li>
+					<li><a href="<?php echo get::site(); ?>/BlogTest/Category/<?php echo $kat["CategoryId"]; ?>"><?php echo $kat["CategoryName"]; ?></a></li>
 					<?php
 					}
 				?>
@@ -20,7 +20,7 @@
 				<li>
 					<h5><?php echo $post["PostTitle"]; ?></h5>
 					<p><?php echo substr($post["Post"],0,30) ?></p>
-					<a href="<?php echo get::site(); ?>/BlogTest/PostDetay/<?php echo $post["PostId"]; ?>">Devamını gör</a>
+					<a href="<?php echo get::site(); ?>/BlogTest/PostDetail/<?php echo $post["PostId"]; ?>">Devamını gör</a>
 				</li>
 				<?php
 				}

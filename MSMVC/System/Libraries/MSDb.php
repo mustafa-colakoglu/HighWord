@@ -77,6 +77,12 @@
 		function delete($tablo,$where=false){
 			return $this->Database->delete($tablo,$where);
 		}
+		function query($query = false){
+			return $this->Database->query($query);
+		}
+		function exec($query = false){
+			return $this->Database->exec($query);
+		}
 		function lastInsertId(){
 			return $this->Database->lastInsertId();
 		}

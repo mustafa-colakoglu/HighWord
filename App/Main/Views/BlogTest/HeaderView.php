@@ -11,6 +11,7 @@
 				<ul>
 					<li><a href="<?php echo get::site(); ?>/BlogTest">Anasayfa</a></li>
 					<li><a href="<?php echo get::site(); ?>/BlogTest/Hakkimda">Hakkımda</a></li>
+					<li><a href="<?php echo get::site(); ?>/BlogTest/Gundem">Gündem</a></li>
 				</ul>
 			</menu>
 		</header>

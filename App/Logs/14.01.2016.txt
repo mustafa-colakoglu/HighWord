@@ -1,2 +1,0 @@
-23.17.16	 : ::1 	 Sorgu Yapýldý : INSERT INTO high_posts VALUES('','1','Deneme 2','Deneme post','','14:01:2016','1452809836') FROM : Main
-23.17.16	 : ::1 	 Sorgu Yapýldý : INSERT INTO high_posts VALUES('','1','Deneme 2','Deneme post','','14:01:2016','1452809836') FROM : Main

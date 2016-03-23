@@ -54,12 +54,22 @@
 				if($PostId){
 					if(is_string($Tags)){
 						$Tags = $this->Uselib->formDataFix($Tags);
-						$this->insert("high_post_tags",false,"'','$PostId','$Tags'");
+						$DoControl = $this->select("high_post_tags","PostId='$PostId' and Tag='$Tags'");
+						if(count($DoControl)>0){}
+						else{
+							$Time = time();
+							$this->insert("high_post_tags",false,"'','$PostId','$Tags','$Time'");
+						}
 					}
 					else if(is_array($Tags)){
 						for($i=0;$i<count($Tags);$i++){
-							$Tag = $this->Uselib->Clean($Tags[$i]);
-							$this->insert("high_post_tags",false,"'','$PostId','$Tag'");
+							$Tag = $this->Uselib->formDataFix($Tags[$i]);
+							$DoControl = $this->select("high_post_tags","PostId='$PostId' and Tag='$Tag'");
+							if(count($DoControl)>0){}
+							else{
+								$Time = time();
+								$this->insert("high_post_tags",false,"'','$PostId','$Tag','$Time'");
+							}
 						}
 					}
 					else{
@@ -123,6 +133,12 @@
 			else{
 				return $FileName;
 			}
+		}
+		function GetPost($PostId = false){
+			if($PostId){
+				return $this->GetPosts(array("PostId"=>array($PostId)));
+			}
+			return false;
 		}
 		function GetPosts($Features = array(),$Sort = array("By" => "PostId","Sort" => "DESC")){
 			/*
@@ -227,6 +243,24 @@
 				);
 			}
 			return $posts;
+		}
+		function GetPostImages($PostId = false){
+			if($PostId){
+				if(intval($PostId)>0){
+					return $this->select("high_post_images","PostId='$PostId'");
+				}
+				return array();
+			}
+			return array();
+		}
+		function GetPostTags($PostId = false){
+			if($PostId){
+				if(intval($PostId)>0){
+					return $this->select("high_post_tags","PostId='$PostId'");
+				}
+				return array();
+			}
+			return array();
 		}
 		function DeletePost($PostId = false){
 			if($PostId and is_numeric($PostId)){

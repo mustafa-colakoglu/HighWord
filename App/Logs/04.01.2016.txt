@@ -1,3 +1,0 @@
-10.13.56	 : ::1 	 Sorgu Yapýldý : INSERT INTO hi_posts('','1','Deneme BaÅŸlÄ±k','Deneme Post','NoResim.jpg','Mon.Jan.2016','') VALUES() FROM : Main
-10.14.01	 : ::1 	 Sorgu Yapýldý : INSERT INTO hi_posts('','1','Deneme BaÅŸlÄ±k','Deneme Post','NoResim.jpg','Mon.Jan.2016','1451898841') VALUES() FROM : Main
-10.14.13	 : ::1 	 Sorgu Yapýldý : INSERT INTO hi_posts VALUES('','1','Deneme BaÅŸlÄ±k','Deneme Post','NoResim.jpg','Mon.Jan.2016','1451898853') FROM : Main
