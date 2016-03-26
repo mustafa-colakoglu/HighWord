@@ -18,6 +18,8 @@
 		}
 		function actionIndex(){
 			$Journal = new Journal();
+			$Journal->MaxTime = 24*60*60;
+			$Journal->run();
 			$data["Tags"] = $Journal->GetTags();
 			$this->view("BlogTest/Header");
 			$this->view("BlogTest/Journal",$data);

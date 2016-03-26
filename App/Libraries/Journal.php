@@ -5,7 +5,7 @@
 		public $MaxTime = false;
 		public $AllTags;
 		public $Tags = array();
-		function __construct(){
+		function run(){
 			$Database = new MSModel();
 			if(!$this->MaxTime){
 				$this->MaxTime = 24*60*60;
@@ -32,10 +32,10 @@
 					array_push($this->Tags,$array);
 				}
 			}
-			$this->Tags = $this->Sort($this->Tags);
+			$this->Tags = $this->QuickSort($this->Tags);
 			return $this->Tags;
 		}
-		function Sort($Dizi){
+		function QuickSort($Dizi){
 			if(count($Dizi) <= 1){
 				return $Dizi;
 			}
@@ -51,7 +51,7 @@
 						$right[] = $Dizi[$i];
 					}
 				}
-				return array_merge($this->Sort($left),array($Dizi[0]),$this->Sort($right));
+				return array_merge($this->QuickSort($left),array($Dizi[0]),$this->QuickSort($right));
 			}
 		}
 		function inArray($Tag,$Array){
