@@ -30,6 +30,15 @@
 			}
 			return false;
 		}
+		function GetComments($PostId = false){
+			$PostId = intval($PostId);
+			if($PostId>0){
+				return $this->select("high_comments","PostId='$PostId'");
+			}
+			else{
+				return array();
+			}
+		}
 		function DeleteComment($CommentId = false){
 			if($CommentId and is_numeric($CommentId)){
 				$this->delete("high_comments","CommentId='$CommentId'");
